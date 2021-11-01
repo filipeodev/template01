@@ -1,0 +1,235 @@
+/*Geral*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body,h1,h2,h3,h4,h5{
+	font-family: "Raleway", sans-serif;
+}
+body{
+	color: #000000!important;
+	background-color: #f1f1f1!important;
+}
+img{
+	width: 100%;
+}
+
+/*Para Desktops*/
+
+/*Estilo do cabeçalho*/
+.cabecalho{
+	text-align: center;
+	display: block;
+	width: 100%;
+	padding: 4% 0% 4% 0%;
+}
+.cabecalho > h1{
+	text-transform: uppercase;
+	margin: 0% 0% 1.5% 0%;
+	font-size: 2.2em;
+	font-weight: 100;
+}
+.cabecalho > p{
+	font-size: 1em;
+}
+.cabecalho > span{
+	padding: 0.3% 0.5% 0.3% 0.5%;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+/*Para todos os cards*/
+.card-shadow{
+	width: 100%;
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+    margin-left: 1.5%;
+	background-color: #FFFFFF;
+}
+
+
+/*card1*/
+.card1{
+	max-width: 63%;
+	float: left;
+	margin-bottom: 2.5%;
+}
+
+/*Card2*/
+.card2{
+	max-width: 31%;
+	float: right;
+	margin-right: 1.5%;
+}
+.card2 > .titulo > p{
+	margin-bottom: 1%;
+}
+
+/*Card3*/
+.card3{
+	clear: both;
+	max-width: 63%;
+	float: left;
+	margin-right: 1.5%;
+	display: block;
+	position: relative;
+}
+/*Card4*/
+.card4 img{
+	clear: both;
+	width: 15%;
+	padding: 3.5%;
+}
+.card4{
+	max-width: 31%;
+	float: right;
+	margin-right: 1.5%;
+	display: block;
+    margin-top: -11%;
+}
+
+/*Card4 titlePost*/
+.titlePost{
+	display: block;
+	margin: 0 auto;
+	padding: 4%;
+	background-color: #F5F5F5!important;
+	font-size: 1em;
+}
+/*Card4 post1*/
+.post h3{
+	font-weight: 100;
+}
+.post{
+	display: flex;
+	margin: 0 auto;
+	padding: 1%;
+	font-size: 1em;
+	border-bottom: 1px solid #ddd;
+}
+.divPost{
+	margin-top: 5%;
+}
+.post:hover{
+	background-color: #E0E0E0;
+}
+
+/*card5*/
+.card5{
+	max-width: 31%;
+	float: right;
+	margin-right: 1.5%;
+	display: block;
+    margin-top: 2%;
+    background-color: #FFFFFF;
+}
+.card5 .postTitle{
+	margin: 3.5% 3.5% 4.5% 3.5% ;
+}
+.card5 .titlePosted{
+	background-color: #000000!important;
+	color: #FFFFFF;
+	padding: 1.4% 3.5%;
+	display: inline-block;
+	text-align: center;
+	font-size: 0.7em;
+	margin-bottom: 5.5%;
+}
+.card5 .titlePosted1{
+	background-color: #F5F5F5!important;
+	padding: 1.4% 3.5%;
+	display: inline-block;
+	text-align: center;
+	font-size: 0.7em;
+	margin-bottom: 5.5%;
+}
+
+/*Titulos Gerais*/
+.titulo{
+	margin-left: 3%;
+	margin-top: 3%;
+	margin-bottom: 7%;
+	padding: 2% 6% 2% 2%;
+}
+.titulo h2{
+	font-size: 2em;
+    margin-bottom: 2.5%;
+    font-weight: 100;
+}
+.titulo h4{
+	margin-bottom: 5%;
+    font-size: 1.2em;
+}
+.titulo p{
+	margin-bottom: 4%;
+	letter-spacing: .08rem;
+}
+.titulo button{
+	text-transform: uppercase;
+	padding: 2.5% 4.3%;
+	float: left;
+	background-color: #FFFFFF;
+	border: .3px solid #ccc;
+}
+.titulo button:hover{
+	background-color: #ccc;
+}
+.titulo .p2{
+	float: right;
+	margin: 0;
+	display: -webkit-box;
+}
+.titulo .p2 span{
+	background-color: #000000;
+	padding: 3%;
+	color: #FFFFFF;
+}
+.titulo .p3{
+	float: right;
+	margin: 0;
+	display: -webkit-box;
+
+}
+.titulo .p3 span{
+	background-color: #000000;
+    padding: 5%;
+    color: #FFFFFF;
+    border-radius: 50%;
+}
+/*Rodapé*/
+.rodape{
+	max-width: 100%;
+	height: 400px;
+	background-color: #616161;
+}
+.botaoP{
+	text-transform: uppercase;
+	padding: 2.5% 4.3%;
+	float: left;
+	background-color: #FFFFFF;
+	border: .3px solid #ccc;
+}
+.botaoN{
+	
+}
+
+/*Para tablets*/
+@media only screen and (max-width: 999px){
+
+}
+
+
+
+/*Para celulares*/
+@media only screen and (max-width: 599px){
+	.card1,
+	.card2,
+	.card3,
+	.card4,
+	.card5{
+		max-width: 100%;
+		float:  initial;
+	}
+	.titulo button{
+		float: initial;
+	}
+}
